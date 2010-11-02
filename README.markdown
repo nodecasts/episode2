@@ -35,7 +35,7 @@ Runnning
 Maintainer
 ----------
 
-* Emerson Macedo (<http://nodecasts.org> / <http://codificando.com/> pt_BR)
+* Emerson Macedo (<http://nodecasts.org> / <http://codificando.com> pt_BR)
 
 License:
 --------

@@ -13,24 +13,24 @@ Dependencies
 
 Installation
 ------------
-        - Install node from source (http://nodejs.org/#download)
-        - Install npm 
-          $ curl http://npmjs.org/install.sh | sh
-        - Install express 
-          $ npm install express
-        - Install faye 
-          $ npm install faye
+    - Install node from source (http://nodejs.org/#download)
+    - Install npm 
+      $ curl http://npmjs.org/install.sh | sh
+    - Install express 
+      $ npm install express
+    - Install faye 
+      $ npm install faye
 
 Runnning
 --------
-        $ node server.js
-        Point your browser to http://localhost:8000/client.html
-       
-        Open your terminal and send messages using curl:
-        #JSON
-        $ curl -X POST -H "Content-Type:application/json" -d '{"message":"hello nodecasts.org"}' http://localhost:8000/message
-        #FORM
-        $ curl -X POST -H "Content-Type:application/x-www-form-urlencoded" -d 'message=hello using html form' http://localhost:8000/message
+    $ node server.js
+    Point your browser to http://localhost:8000/client.html
+    
+    Open your terminal and send messages using curl:
+    #JSON
+    $ curl -X POST -H "Content-Type:application/json" -d '{"message":"hello nodecasts.org"}' http://localhost:8000/message
+    #FORM
+    $ curl -X POST -H "Content-Type:application/x-www-form-urlencoded" -d 'message=hello using html form' http://localhost:8000/message
        
 Maintainer
 ----------
